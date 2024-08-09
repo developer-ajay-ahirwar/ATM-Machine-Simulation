@@ -45,7 +45,7 @@ public class ATMMachine {
                         int pin = in.nextInt();
                         atm.setPIN(pin);
                         System.out.println("SuscessFully pin change: ");
-                        history.add("----------------------------Pin Changing--------------------------");
+                        history.add("Pin Changing");
                         break;
                     }
                     else if(selection == 5){
